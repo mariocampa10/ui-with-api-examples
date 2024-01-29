@@ -7,7 +7,7 @@ Test implementation examples using Selenium Webdriver and REST Assured
 ```
 git clone https://github.com/mariocampa10/ui-with-api-examples.git
 ```
-2. Execute Grade Test on root project folder
+2. Execute Gradle Test on root project folder
 ```
 ./gradlew clean test
 ```
