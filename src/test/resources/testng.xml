@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ui-with-api-examples" parallel="tests" thread-count="3">
+    <test name="Exercise UI">
+        <classes>
+            <class name="test.Exercise1Test"/>
+        </classes>
+    </test>
+    <test name="Exercise API">
+        <classes>
+            <class name="test.Exercise2Test"/>
+        </classes>
+    </test>
+</suite>
